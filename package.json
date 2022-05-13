@@ -1,11 +1,10 @@
 {
   "name": "@thebeyondersstudio/ui-utils",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "UI utilities library",
-  "main": "dist/index.js",
-  "files": [
-    "/dist"
-  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thebeyondersstudio/ui-utils.git"
@@ -39,8 +38,9 @@
     "rollup-plugin-cleaner": "^1.0.0"
   },
   "scripts": {
-    "build": "rollup -c",
+    "build": "rollup -c && cp package.json dist",
     "dev": "rollup -c -w",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "cd dist && npm publish"
   }
 }
