@@ -35,7 +35,8 @@
     "react-router-dom": "^6.3.0"
   },
   "devDependencies": {
-    "rollup": "^2.72.1"
+    "rollup": "^2.72.1",
+    "rollup-plugin-cleaner": "^1.0.0"
   },
   "scripts": {
     "build": "rollup -c",
