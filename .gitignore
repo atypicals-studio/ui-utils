@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+
+# deploy package
+dist/
+
+# testing coverage report
+coverage/
+
+# local env settings
+.env
+
+# log files
+**/*.log
+
+# VSCode settings
+.vscode/
+
+# macOS folder display preferences hidden file
+.DS_Store

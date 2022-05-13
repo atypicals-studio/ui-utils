@@ -1,0 +1,40 @@
+{
+  "name": "@thebeyondersstudio/ui-utils",
+  "version": "1.0.0",
+  "description": "UI utilities library",
+  "main": "dist/index.js",
+  "files": [
+    "/dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebeyondersstudio/ui-utils.git"
+  },
+  "keywords": [
+    "React",
+    "ui",
+    "utils",
+    "hooks",
+    "form",
+    "validation",
+    "colors",
+    "export"
+  ],
+  "author": "The Beyonders Studio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thebeyondersstudio/ui-utils/issues"
+  },
+  "homepage": "https://github.com/thebeyondersstudio/ui-utils#readme",
+  "dependencies": {
+    "@apollo/client": "^3.6.2",
+    "date-fns": "^2.28.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "react": "^18.1.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
