@@ -38,9 +38,10 @@
     "rollup-plugin-cleaner": "^1.0.0"
   },
   "scripts": {
+    "clean": "rimraf -r dist",
+    "prebuild": "npm run clean",
     "build": "rollup -c && cp package.json dist",
-    "dev": "rollup -c -w",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "cd dist && npm publish"
+    "deploy": "cd dist && npm publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
